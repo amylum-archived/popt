@@ -1,10 +1,10 @@
-popd
+popt
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/popd/master.svg)](https://circleci.com/gh/amylum/popd)
-[![GitHub release](https://img.shields.io/github/release/amylum/popd.svg)](https://github.com/amylum/popd/releases)
+[![Build Status](https://img.shields.io/circleci/project/amylum/popt/master.svg)](https://circleci.com/gh/amylum/popt)
+[![GitHub release](https://img.shields.io/github/release/amylum/popt.svg)](https://github.com/amylum/popt/releases)
 
-Package repo for [popd](http://rpm5.org/news.php)
+Package repo for [popt](http://rpm5.org/news.php)
 
 ## Usage
 
