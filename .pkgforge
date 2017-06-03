@@ -9,6 +9,10 @@ source(
   url: 'http://rpm5.org/files/popt/popt-1.16.tar.gz'
 )
 
+configure_flags(
+  prefix: '/usr'
+)
+
 harden
 
 build do
