@@ -1,0 +1,25 @@
+name 'popt'
+org 'amylum'
+
+licenses 'COPYING'
+
+source(
+  type: 'tar',
+  # TODO: use checksum for source
+  url: 'http://rpm5.org/files/popt/popt-1.16.tar.gz'
+)
+
+configure_flags()
+
+cflags
+harden
+
+build do
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end
