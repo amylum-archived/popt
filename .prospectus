@@ -5,7 +5,8 @@ item do
   expected do
     url_xpath
     url 'http://rpm5.org/files/popt/?C=M;O=D'
-    xpath '//*[@id="autoindex"]/table/tbody/tr[4]/td[2]/a'
+    xpath '//*[@id="autoindex"]/table/tr[4]/td[2]/a'
+    regex /^popt-([\d.]+)\.tar\.gz$/
   end
 
   actual do
