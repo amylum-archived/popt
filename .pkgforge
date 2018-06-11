@@ -8,8 +8,8 @@ licenses 'COPYING'
 
 source(
   type: 'tar',
-  url: 'http://rpm5.org/files/popt/popt-1.16.tar.gz',
-  checksum: 'd6a01d72cf18dbe20d173fed7bc32cf87daafe62cf6b87672f6b434daff1ed74'
+  url: 'https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/popt/1.16-11/popt_1.16.orig.tar.gz'
+  checksum: 'e728ed296fe9f069a0e005003c3d6b2dde3d9cad453422a10d6558616d304cc8'
 )
 
 configure_flags(
